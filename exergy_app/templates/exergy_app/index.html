@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% if request.POST %}
+    {{ context }}
+{%endif%}
+<form action="/exergy" method="post">
+    {% csrf_token %}
+    {{ form.as_p}}
+    <input type="submit" value="Get Data">
+</form>
 
-</body>
-</html>
+{% if data %}
+    {{ data }}
+{% endif %}
