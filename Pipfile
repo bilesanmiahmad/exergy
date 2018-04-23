@@ -8,6 +8,10 @@ name = "pypi"
 [packages]
 django = "*"
 requests = "*"
+dj-database-url = "*"
+gunicorn = "*"
+whitenoise = "*"
+"psycopg2" = "*"
 
 [requires]
 python_version = "3.5"
