@@ -26,7 +26,9 @@ SECRET_KEY = '3y@79-kejxsc^vps4$()o@1gz#m7r29ifwp83_u&u5xzl))s(a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'exergy-project.herokuapp.com/'
+]
 
 
 # Application definition
