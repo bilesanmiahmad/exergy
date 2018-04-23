@@ -27,7 +27,7 @@ SECRET_KEY = '3y@79-kejxsc^vps4$()o@1gz#m7r29ifwp83_u&u5xzl))s(a'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'exergy-project.herokuapp.com/'
+    'exergy-project.herokuapp.com',
 ]
 
 
